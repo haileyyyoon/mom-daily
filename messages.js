@@ -21,7 +21,10 @@
 // =============================================================
 
 // The day you leave. Format: "YEAR-MONTH-DAY" (month and day are 2 digits).
-const START_DATE = "2026-07-24";
+// NOTE: set to a past date for PREVIEW mode (unlocks every message so you
+// can flip through them). Change this back to your real move-in day before
+// you share the link with Mom, or she'll see them all at once!
+const START_DATE = "2020-01-01";
 
 // A little passcode your mom types to get in. Keep it easy for her!
 // Numbers work best — they type the same on any keyboard.
