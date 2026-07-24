@@ -34,20 +34,20 @@ const PASSCODE = "1234";
 // Your messages, in order. The first one shows on START_DATE.
 const MESSAGES = [
   {
-    text: "Hi Mom. If you're reading this, it's my first day away — and I already miss you. I made this little site so you'll hear from me every single day I'm gone. Love you. ❤️",
+    text: "Hi Mom. If you're reading this, it's my first day away. I already miss you. I made this little site so you'll hear from me every single day I'm gone. Love you. ❤️",
     photos: [],
   },
   {
-    text: "Day two. I'm settling in okay. Thank you for everything you did to get me here — I don't say it enough.",
+    text: "Day two. I'm settling in okay. Thank you for everything you did to get me here.",
     photos: [],
   },
   {
-    text: "Remember when we used to have coffee together in the mornings? I thought about that today. Save me a cup for when I visit.",
-    photos: [],
+    text: "I also programmed this to have photos :) Are you proud of me? This was me just 4 months ago",
+    photos: ["gradpic.jpg"],
   },
   {
-    text: "Here are a couple of pictures I wanted you to see. Thinking of you. 🌸",
-    photos: ["example1.jpg", "example2.jpg"], // <- put these files in the "photos" folder, or change the names
+    text: "How time flies. I just finished my CASE exam. I hope there are good results",
+    photos: [],
   },
   {
     text: "Almost the weekend. Eat well, rest, and don't work too hard. I'll call you soon. Love always.",
