@@ -21,7 +21,7 @@
 // =============================================================
 
 // The day you leave. Format: "YEAR-MONTH-DAY" (month and day are 2 digits).
-const START_DATE = "2026-08-25";
+const START_DATE = "2026-07-24";
 
 // A little passcode your mom types to get in. Keep it easy for her!
 // (This keeps casual visitors out. Leave it as "" for no passcode.)
