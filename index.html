@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>A message for you 💌</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Passcode screen (only shows if a PASSCODE is set) -->
+  <div id="gate" class="gate" hidden>
+    <form id="gateForm" class="gate-box">
+      <p class="gate-title">A little something for you 💌</p>
+      <input id="gateInput" class="gate-input" type="password" placeholder="passcode" autocomplete="off" />
+      <button type="submit" class="nav-btn today">open</button>
+      <p id="gateError" class="gate-error" hidden>Hmm, try again 💛</p>
+    </form>
+  </div>
+
+  <main class="card" id="card" hidden>
+    <p class="day-label" id="dayLabel"></p>
+
+    <div id="gallery" class="gallery" hidden></div>
+
+    <p class="message" id="message">Loading today's message…</p>
+
+    <p class="signoff">— with love</p>
+
+    <nav class="nav">
+      <button id="prevBtn" class="nav-btn" aria-label="Previous day">‹ earlier</button>
+      <button id="todayBtn" class="nav-btn today" aria-label="Back to today">today</button>
+      <button id="nextBtn" class="nav-btn" aria-label="Next day">later ›</button>
+    </nav>
+  </main>
+
+  <script src="messages.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
