@@ -23,12 +23,29 @@ function setupGate() {
   const error = document.getElementById("gateError");
   input.focus();
 
-  form.addEventListener("submit", (e) => {
-    e.preventDefault();
-    if (input.value.trim().toLowerCase() === PASSCODE.toLowerCase()) {
+  function matches() {
+    return input.value.trim().toLowerCase() === PASSCODE.toLowerCase();
+  }
+
+  function tryUnlock() {
+    if (matches()) {
       sessionStorage.setItem("unlocked", "yes");
       unlock();
-    } else {
+      return true;
+    }
+    return false;
+  }
+
+  // Unlock the moment the right code is typed — no button or Enter needed.
+  input.addEventListener("input", () => {
+    error.hidden = true;
+    tryUnlock();
+  });
+
+  // Also handle pressing the "open" button or Enter.
+  form.addEventListener("submit", (e) => {
+    e.preventDefault();
+    if (!tryUnlock()) {
       error.hidden = false;
       input.value = "";
       input.focus();
