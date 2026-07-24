@@ -42,8 +42,8 @@ const MESSAGES = [
     photos: [],
   },
   {
-    text: "I also programmed this to have photos :) Are you proud of me? This was me just 4 months ago",
-    photos: ["gradpic.jpg"],
+    text: "I also programmed this to have photos :) Are you proud of me? This is my favorite picture from when I was little.",
+    photos: ["babypic1.jpg"],
   },
   {
     text: "How time flies. I just finished my CASE exam. I hope there are good results",
