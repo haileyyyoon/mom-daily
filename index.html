@@ -33,7 +33,18 @@
     </nav>
   </main>
 
-  <script src="messages.js?v=6"></script>
-  <script src="app.js?v=6"></script>
+  <!-- Always loads the freshest messages + code, so your edits show up right
+       away with no hard-refresh or version bumping needed. -->
+  <script>
+    (function () {
+      var t = Date.now();
+      ["messages.js", "app.js"].forEach(function (src) {
+        var s = document.createElement("script");
+        s.src = src + "?t=" + t;
+        s.async = false; // keep order: messages.js must run before app.js
+        document.head.appendChild(s);
+      });
+    })();
+  </script>
 </body>
 </html>
