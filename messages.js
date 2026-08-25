@@ -29,7 +29,7 @@ const START_DATE = "2026-08-24";
 // A little passcode your mom types to get in. Keep it easy for her!
 // Numbers work best — they type the same on any keyboard.
 // (This keeps casual visitors out. Leave it as "" for no passcode.)
-const PASSCODE = "Newport";
+const PASSCODE = "3315";
 
 // Your messages, in order. The first one shows on START_DATE.
 const MESSAGES = [
