@@ -41,7 +41,7 @@ const MESSAGES = [
   },
   {
     text: "Day two. 나 아침에 저 배너 사인하고 스티커 받았다ㅏ 아빠가 말한 볶음우동. 저 우동 반도 안먹었어 ㅋㅋ",
-    photos: ["udon.jpg,banner.jpg"],
+    photos: ["udon.jpg","banner.jpg"],
   },
   {
     text: "I also programmed this to have photos :) Are you proud of me? This is my favorite picture from when I was little.",
