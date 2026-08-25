@@ -24,21 +24,21 @@
 // NOTE: set to a past date for PREVIEW mode (unlocks every message so you
 // can flip through them). Change this back to your real move-in day before
 // you share the link with Mom, or she'll see them all at once!
-const START_DATE = "2020-01-01";
+const START_DATE = "2026-08-24";
 
 // A little passcode your mom types to get in. Keep it easy for her!
 // Numbers work best — they type the same on any keyboard.
 // (This keeps casual visitors out. Leave it as "" for no passcode.)
-const PASSCODE = "1234";
+const PASSCODE = "Newport";
 
 // Your messages, in order. The first one shows on START_DATE.
 const MESSAGES = [
   {
-    text: "Hi Mom. If you're reading this, it's my first day away. I already miss you. I made this little site so you'll hear from me every single day I'm gone. Love you. ❤️",
-    photos: [],
+    text: "나 다람쥐 봤다 :D 우헤헤",
+    photos: [squirrel1.jpeg,squirrel2.jpeg],
   },
   {
-    text: "Day two. I'm settling in okay. Thank you for everything you did to get me here.",
+    text: "Day two. ",
     photos: [],
   },
   {
