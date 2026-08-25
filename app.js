@@ -64,7 +64,6 @@ const start = new Date(START_DATE + "T00:00:00");
 const today = new Date();
 const todayIndex = Math.max(0, daysBetween(start, today));
 const maxIndex = Math.min(todayIndex, MESSAGES.length - 1);
-
 let viewIndex = maxIndex;
 
 const dayLabel = document.getElementById("dayLabel");
