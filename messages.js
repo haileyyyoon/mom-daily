@@ -35,7 +35,7 @@ const PASSCODE = "3315";
 const MESSAGES = [
   {
     text: "나 다람쥐 봤다 :D 우헤헤",
-    photos: [squirrel1.jpg,squirrel2.jpg],
+    photos: ["squirrel1.jpg","squirrel2.jpg"],
   },
   {
     text: "Day two. ",
