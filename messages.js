@@ -18,6 +18,8 @@
 //  - For SEVERAL:     photos: ["beach.jpg", "sunset.jpg", "us.jpg"]
 //  - For NONE:        photos: []
 //
+//  ⚠️ IMPORTANT: filenames must be in quotes! "beach.jpg" not beach.jpg
+//
 // =============================================================
 
 // The day you leave. Format: "YEAR-MONTH-DAY" (month and day are 2 digits).
@@ -35,7 +37,7 @@ const PASSCODE = "3315";
 const MESSAGES = [
   {
     text: "나 다람쥐 봤다 :D 우헤헤",
-    photos: ["squirrel1.jpg","squirrel2.jpg"],
+    photos: ["squirrel1.jpg", "squirrel2.jpg"],
   },
   {
     text: "Day two. ",
